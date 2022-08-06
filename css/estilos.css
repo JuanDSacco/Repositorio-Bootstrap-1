@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    background-color: coral;
+    padding-bottom: 1px;
+}
+.productos{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 5px;
+}
+.productos h2{
+    font-size: 23px;
+}
+.color{
+    text-align: center;
+    background-color: darkorchid;
+    color: white;
+}
+.color1{
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+.color2{
+    text-align: center;
+    background-color: darkorchid;
+    color: white;
+}
+.color3{
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+.color4{
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+.color5{
+    text-align: center;
+    background-color: darkorchid;
+    color: white;
+}
+.color6{
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+.color7{
+    text-align: center;
+    background-color: darkorchid;
+    color: white;
+}
+.espaciado{
+    background-color: coral;
+}
+.espacio{
+    height: 40px;
+    width: 100%;
+}
+.contactos{
+    text-align: center;
+    font-size: 23px;
+}
+.ubicacion{
+    text-align: center;
+    font-size: 23px;
+    background-color: black;
+    color: white;
+}
+.cont{
+    font-size: 17px;
+    background-color: black;
+    color: white;
+}
+ul{
+    list-style: none;
+    padding-top: 10px;
+}
+.ubi{
+    font-size: 17px;
+}
