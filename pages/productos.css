@@ -110,12 +110,6 @@ header{
     }
 }
 
-
-
-
-
-
-
 @media only screen and (min-width:576px) and (max-width:767px){
     .cuadro2{
         border-left: 2px solid black;
@@ -145,10 +139,6 @@ header{
         border-bottom: 0;
     }
 }
-
-
-
-
 
 @media only screen and (min-width:768px) and (max-width:991px){
     .cuadro1{
@@ -183,11 +173,6 @@ header{
     }
 }
 
-
-
-
-
-
 @media only screen and (min-width:992px) and (max-width:1023px){
     .cuadro1{
         border-right: 0;
@@ -209,11 +194,6 @@ header{
         border-right: 0;
     }
 }
-
-
-
-
-
 
 @media only screen and (min-width:1024px){
     .cuadro1{
