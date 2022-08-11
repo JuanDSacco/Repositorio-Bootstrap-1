@@ -93,3 +93,52 @@ h1{
 .inicio a:hover{
     color: coral;
 }
+
+
+
+
+@media only screen and (min-width:425px) and (max-width:767px){
+    .item{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:"img1"
+                            "p1"
+                            "img2"
+                            "p2"
+                            "img3"
+                            "p3";
+    }
+    .footer{
+        flex-direction: column;
+    }
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .item{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 460px);
+        grid-template-areas:"img1 p1"
+                            "p2 img2"
+                            "img3 p3";
+    }
+}
+
+
+
+
+@media only screen and (min-width:992px) and (max-width:1024px){
+    .item{
+        grid-template-rows: repeat(3, 460px);
+    }
+    .item1{
+        padding-top: 60px;
+    }
+    .item4{
+        padding-top: 60px;
+    }
+    .item5{
+        padding-top: 60px;
+    }
+}
