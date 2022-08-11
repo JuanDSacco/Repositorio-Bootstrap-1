@@ -94,9 +94,6 @@ h1{
     color: coral;
 }
 
-
-
-
 @media only screen and (min-width:425px) and (max-width:767px){
     .item{
         grid-template-columns: repeat(1, 1fr);
@@ -113,8 +110,6 @@ h1{
     }
 }
 
-
-
 @media only screen and (min-width:768px) and (max-width:991px){
     .item{
         grid-template-columns: repeat(2, 1fr);
@@ -125,10 +120,7 @@ h1{
     }
 }
 
-
-
-
-@media only screen and (min-width:992px) and (max-width:1024px){
+@media only screen and (min-width:992px) and (max-width:1023px){
     .item{
         grid-template-rows: repeat(3, 460px);
     }
