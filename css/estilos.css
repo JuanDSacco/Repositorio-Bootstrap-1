@@ -141,7 +141,6 @@ ul{
 .ini a:hover{
     color: brown;
 }
-
 @media only screen and (min-width:425px) and (max-width:767px){
     .color4{
         background-color: darkorchid;
@@ -156,7 +155,6 @@ ul{
         background-color: brown;
     }
 }
-
 @media only screen and (min-width:768px) and (max-width:991px){
     .color2{
     background-color: brown;
@@ -175,5 +173,125 @@ ul{
     }
     .color7{
         background-color: darkorchid;
+    }
+}
+
+/* pagina de contacto */
+
+.item{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 330px);
+    grid-template-areas:"p1 img1"
+                        "img2 p2"
+                        "p3 img3";
+}
+.item h2{
+    font-size: 25px;
+}
+.item1{
+    padding: 15px;
+    grid-area: p1;
+    background-color: brown;
+}
+.item2{
+    grid-area: img1;
+    background-image: url(../multimedia/prod1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item3{
+    grid-area: img2;
+    background-image: url(../multimedia/prod2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item4{
+    padding: 15px;
+    padding-bottom: 15px;
+    grid-area: p2;
+    background-color: brown;
+}
+.item5{
+    padding: 15px;
+    padding-bottom: 15px;
+    grid-area: p3;
+    background-color: brown;
+}
+.item6{
+    grid-area: img3;
+    background-image: url(../multimedia/prod3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item ul{
+    list-style: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: coral;
+    text-align: center;
+}
+.lista{
+    padding-top: 55px;
+}
+.lista ul{
+    list-style: none;
+}
+.inicio{
+    text-align: center;
+    background-color: brown;
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
+.inicio a{
+    text-decoration: none;
+    color: black;
+}
+.inicio a:hover{
+    color: coral;
+}
+@media only screen and (min-width:425px) and (max-width:767px){
+    .item{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:"img1"
+                            "p1"
+                            "img2"
+                            "p2"
+                            "img3"
+                            "p3";
+    }
+    .footer{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .item{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 460px);
+        grid-template-areas:"img1 p1"
+                            "p2 img2"
+                            "img3 p3";
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1023px){
+    .item{
+        grid-template-rows: repeat(3, 460px);
+    }
+    .item1{
+        padding-top: 60px;
+    }
+    .item4{
+        padding-top: 60px;
+    }
+    .item5{
+        padding-top: 60px;
     }
 }
