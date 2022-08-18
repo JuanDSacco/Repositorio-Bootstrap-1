@@ -626,3 +626,92 @@ h2{
         border-bottom: 2px solid black;
     }
 }
+
+/* pagina de servicios */
+
+.headerServicios{
+    background-color: coral;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.area h2{
+    color: black;
+}
+.area1{
+    background-color: brown;
+    border: 5px solid black;
+}
+.area1 p{
+    color: white;
+}
+.area2{
+    background-color: brown;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom:  5px solid black;
+}
+.area2 p{
+    color: white;
+}
+.area3{
+    background-color: brown;
+    border-left: 5px solid black;
+    border-bottom:  5px solid black;
+    border-right:  5px solid black;
+}
+.area3 p{
+    color: white;
+}
+.area4{
+    background-color: brown;
+    border-right: 5px solid black;
+    border-bottom:  5px solid black;
+}
+.area4 p{
+    color: white;
+}
+.area5{
+    background-color: brown;
+    border-left: 5px solid black;
+    border-bottom:  5px solid black;
+    border-right:  5px solid black;
+}
+.area5 p{
+    color: white;
+}
+.area6{
+    background-color: brown;
+    border-right: 5px solid black;
+    border-bottom:  5px solid black;
+}
+.area6 p{
+    color: white;
+}
+.inicio{
+    background-color: coral;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.inicio a{
+    text-decoration: none;
+    color: black;
+}
+.inicio a:hover{
+    color: brown;
+}
+@media only screen and (min-width:425px) and (max-width:767px){
+    .area2{
+        border-top: 0px;
+        border-left: 5px solid black;
+    }
+    .area4{
+        border-left: 5px solid black;
+    }
+    .area6{
+        border-left: 5px solid black;
+    }
+}
