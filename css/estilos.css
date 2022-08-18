@@ -422,6 +422,7 @@ header ul li a:hover{
 .nave{
     background-color: coral;
     padding-bottom: 1px;
+    font-family: 'Roboto Mono', monospace;
 }
 .nave ul{
     display: flex;
@@ -489,6 +490,12 @@ header ul li a:hover{
 }
 h2{
     font-size: 30px;
+}
+footer .inicio{
+    background-color: black;
+}
+.inicio h3 a{
+    color: white;
 }
 @media only screen and (min-width:425px){
     .cuadro1{
