@@ -27,8 +27,8 @@ header{
 .productos{
     font-family: 'Roboto Mono', monospace;
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding-bottom: 1px;
     padding-top: 5px;
 }
@@ -379,7 +379,7 @@ header ul li a:hover{
     padding-bottom: 10px;
 }
 @media only screen and (min-width:425px) and (max-width:767px){
-    .menu{
+    .menu1{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 450px);
@@ -397,7 +397,7 @@ header ul li a:hover{
     }
 }
 @media only screen and (min-width:768px) and (max-width:991px){
-    .menu{
+    .menu1{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 490px);
@@ -410,9 +410,219 @@ header ul li a:hover{
     }
 }
 @media only screen and (min-width:992px) and (max-width:1023px){
-.menu{
+.menu1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 400px);
 }
+}
+
+/* pagina productos */ 
+
+.nave{
+    background-color: coral;
+    padding-bottom: 1px;
+}
+.nave ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nave ul li{
+    list-style: none;
+    font-size: 20px;
+}
+.nave ul li a{
+    color: black;
+    text-decoration: none;
+}
+.nave ul li a:hover{
+    color: white;
+}
+.produ1{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.cuadro1{
+    background-color: blueviolet;
+    border: 2px solid black;
+    color: white;
+}
+.cuadro2{
+    background-color: brown;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    color: white;
+}
+.cuadro3{
+    background-color: brown;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    color: white;
+}
+.cuadro4{
+    background-color: brown;
+    border-right: 2px solid black;
+    color: white;
+}
+.cuadro5{
+    background-color: blueviolet;
+    border-right: 2px solid black;
+    color: white;
+}
+.cuadro6{
+    background-color: blueviolet;
+    border-right: 2px solid black;
+    color: white;
+}
+.cuadro7{
+    background-color: blueviolet;
+    border: 2px solid black;
+    color: white;
+}
+.cuadro8{
+    background-color: brown;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    color: white;
+}
+h2{
+    font-size: 30px;
+}
+@media only screen and (min-width:425px){
+    .cuadro1{
+        border-bottom: 0;
+    }
+    .cuadro2{
+        border-left: 2px solid black;
+    }
+    .cuadro3{
+        background-color: blueviolet;
+        border-bottom: 2px solid black;
+    }
+    .cuadro4{
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    .cuadro5{
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    .cuadro6{
+        background-color: brown;
+        border-left: 2px solid black;
+    }
+    .cuadro7{
+        border-bottom: 0;
+    }
+    .cuadro8{
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+    .cuadro2{
+        border-left: 2px solid black;
+        border-top: 2px solid black;
+    }
+    .cuadro3{
+        border-bottom: 2px solid black;
+        background-color: blueviolet;
+    }
+    .cuadro4{
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    .cuadro5{
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    .cuadro6{
+        background-color: brown;
+        border-left: 2px solid black;
+    }
+    .cuadro7{
+        border-bottom: 0;
+    }
+    .cuadro8{
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .cuadro1{
+        border-bottom: 0
+    }
+    .cuadro2{
+        border-left: 2px solid black;
+    }
+    .cuadro3{
+        border-bottom: 2px solid black;
+        border-right: 0;
+        background-color: brown;
+    }
+    .cuadro4{
+        border-bottom: 2px solid black;
+        background-color: blueviolet;
+    }
+    .cuadro5{
+        border-left: 2px solid black;
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .cuadro6{
+        background-color: brown;
+    }
+    .cuadro7{
+        border-bottom: 0;
+    }
+    .cuadro8{
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1023px){
+    .cuadro1{
+        border-right: 0;
+        border-bottom: 2px solid black;
+    }
+    .cuadro3{
+        border-bottom: 0;
+    }
+    .cuadro4{
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .cuadro5{
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .cuadro7{
+        border-right: 0;
+        border-bottom: 2px solid black;
+    }
+}
+@media only screen and (min-width:1024px){
+    .cuadro1{
+        border-right: 0;
+        border-bottom: 2px solid black;
+    }
+    .cuadro3{
+        border-bottom: 0;
+    }
+    .cuadro4{
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .cuadro5{
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .cuadro7{
+        border-right: 0;
+        border-bottom: 2px solid black;
+    }
 }
