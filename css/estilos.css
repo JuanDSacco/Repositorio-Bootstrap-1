@@ -204,6 +204,10 @@ ul {
   }
 }
 /* pagina de contacto */
+.listaContacto {
+  padding-bottom: 15px;
+}
+
 .item {
   text-align: center;
   font-family: "Roboto Mono", monospace;
@@ -297,6 +301,9 @@ ul {
 }
 
 @media only screen and (min-width: 425px) and (max-width: 767px) {
+  header {
+    padding: 5px;
+  }
   .item {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
@@ -345,6 +352,10 @@ header ul li a {
 
 header ul li a:hover {
   color: white;
+}
+
+.listaNosotros {
+  padding-bottom: 15px;
 }
 
 .menu1 {
@@ -421,6 +432,9 @@ header ul li a:hover {
 }
 
 @media only screen and (min-width: 425px) and (max-width: 767px) {
+  .listaNosotros li a {
+    font-size: 16px;
+  }
   .menu1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -551,7 +565,10 @@ footer .inicio {
   color: white;
 }
 
-@media only screen and (min-width: 425px) {
+@media only screen and (min-width: 425px) and (max-width: 575px) {
+  .nave ul li {
+    font-size: 16px;
+  }
   .cuadro1 {
     border-bottom: 0;
   }
@@ -838,6 +855,131 @@ footer .inicio {
 
 .footerRedes {
   background-color: brown;
+}
+
+/* pagina expo 2022 */
+.headerExpo {
+  padding: 15px;
+}
+
+.navExpo {
+  background-color: brown;
+}
+
+.listaExpo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.listaExpo li {
+  list-style: none;
+  font-family: "Roboto Mono", monospace;
+}
+.listaExpo li a {
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+.listaExpo li a:hover {
+  color: orange;
+}
+
+.box1 {
+  width: 100%;
+  height: 200px;
+  background-color: coral;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  padding-top: 15px;
+}
+
+.box2 {
+  width: 100%;
+  height: 300px;
+  background-color: brown;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  padding-top: 20px;
+}
+
+.footer, .footerRedes {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  font-family: "Roboto Mono", monospace;
+  background-color: coral;
+  text-align: center;
+}
+.footer h3, .footerRedes h3 {
+  font-size: 20px;
+}
+
+.lista {
+  padding-top: 55px;
+}
+
+.lista ul {
+  list-style: none;
+}
+.lista ul li {
+  font-size: 16px;
+}
+
+.inicio {
+  text-align: center;
+  background-color: brown;
+  padding: 10px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+}
+
+.inicio a {
+  text-decoration: none;
+  color: black;
+}
+
+.inicio a:hover {
+  color: coral;
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .listaExpo li a {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .box1 {
+    height: 530px;
+  }
+  h2 {
+    padding-bottom: 10px;
+  }
+  .box2 {
+    height: 705px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .box1 {
+    height: 300px;
+  }
+  h2 {
+    font-size: 25px;
+    padding-bottom: 5px;
+  }
+  .box2 {
+    height: 385px;
+    padding-top: 5px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .box1 {
+    height: 235px;
+  }
+  .box2 {
+    height: 330px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
