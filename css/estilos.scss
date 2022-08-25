@@ -746,3 +746,8 @@ $redes: (
     display: flex;
     align-items: center;
 }
+
+.footerRedes{
+    @extend .footer;
+    background-color: brown;
+}

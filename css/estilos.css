@@ -262,7 +262,7 @@ ul {
   list-style: none;
 }
 
-.footer {
+.footer, .footerRedes {
   display: flex;
   justify-content: space-around;
   padding: 15px;
@@ -302,7 +302,7 @@ ul {
     grid-template-rows: repeat(6, 1fr);
     grid-template-areas: "img1" "p1" "img2" "p2" "img3" "p3";
   }
-  .footer {
+  .footer, .footerRedes {
     flex-direction: column;
   }
 }
@@ -834,6 +834,10 @@ footer .inicio {
 .nosotrosMap {
   display: flex;
   align-items: center;
+}
+
+.footerRedes {
+  background-color: brown;
 }
 
 /*# sourceMappingURL=estilos.css.map */
