@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Roboto+Mono:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    background-color: coral;
+    padding-bottom: 1px;
+    font-family: 'Roboto Mono', monospace;
+}
+.menu{
+    text-align: center;
+    background-color: brown;
+    padding-bottom: 1px;
+    font-family: 'Roboto Mono', monospace;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.menu a:hover{
+    color: coral;
+}
+.productos{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding-bottom: 1px;
+    padding-top: 5px;
+}
+.productos h2{
+    font-size: 28px;
+}
+.fuente{
+    font-family: 'Roboto Mono', monospace;
+}
+.fuente1{
+    font-family: 'Roboto Mono', monospace;
+}
+h3{
+    font-size: 20px;
+}
+.color{
+    text-align: center;
+    background-color: darkorchid;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+}
+.color1{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    padding: 5px;
+}
+.color2{
+    text-align: center;
+    background-color: darkorchid;
+    color: white;
+    padding: 5px;
+}
+.color3{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    padding: 5px;
+}
+.color4{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    padding: 5px;
+}
+.color5{
+    text-align: center;
+    background-color: darkorchid;
+    color: white;
+    padding: 5px;
+}
+.color6{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    padding: 5px;
+}
+.color7{
+    text-align: center;
+    background-color: darkorchid;
+    color: white;
+    padding: 5px;
+}
+.espaciado{
+    background-color: coral;
+}
+.espacio{
+    height: 40px;
+    width: 100%;
+}
+.contactos{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Roboto Mono', monospace;
+}
+.ubicacion{
+    text-align: center;
+    font-size: 23px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+.cont{
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+ul{
+    list-style: none;
+    padding-top: 10px;
+}
+.ubi{
+    font-size: 17px;
+    font-family: 'Roboto Mono', monospace;
+}
+.ini{
+    background-color: coral;
+    padding-bottom: 1px;
+    padding: 10px;
+    text-align: center;
+}
+.ini a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+.ini a:hover{
+    color: brown;
+}
+@media only screen and (min-width:425px) and (max-width:767px){
+    .color4{
+        background-color: darkorchid;
+    }
+    .color5{
+        background-color: brown;
+    }
+    .color6{
+        background-color: darkorchid;
+    }
+    .color7{
+        background-color: brown;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .color2{
+    background-color: brown;
+    }
+    .color3{
+        background-color: darkorchid;
+    }
+    .color4{
+        background-color: darkorchid;
+    }
+    .color5{
+        background-color: brown;
+    }
+    .color6{
+        background-color: brown;
+    }
+    .color7{
+        background-color: darkorchid;
+    }
+}
+
+/* pagina de contacto */
+
+.item{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 330px);
+    grid-template-areas:"p1 img1"
+                        "img2 p2"
+                        "p3 img3";
+}
+.item h2{
+    font-size: 25px;
+}
+.item1{
+    padding: 15px;
+    grid-area: p1;
+    background-color: brown;
+}
+.item2{
+    grid-area: img1;
+    background-image: url(../multimedia/prod1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item3{
+    grid-area: img2;
+    background-image: url(../multimedia/prod2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item4{
+    padding: 15px;
+    padding-bottom: 15px;
+    grid-area: p2;
+    background-color: brown;
+}
+.item5{
+    padding: 15px;
+    padding-bottom: 15px;
+    grid-area: p3;
+    background-color: brown;
+}
+.item6{
+    grid-area: img3;
+    background-image: url(../multimedia/prod3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item ul{
+    list-style: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: coral;
+    text-align: center;
+}
+.lista{
+    padding-top: 55px;
+}
+.lista ul{
+    list-style: none;
+}
+.inicio{
+    text-align: center;
+    background-color: brown;
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+}
+.inicio a{
+    text-decoration: none;
+    color: black;
+}
+.inicio a:hover{
+    color: coral;
+}
+@media only screen and (min-width:425px) and (max-width:767px){
+    .item{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:"img1"
+                            "p1"
+                            "img2"
+                            "p2"
+                            "img3"
+                            "p3";
+    }
+    .footer{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .item{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 460px);
+        grid-template-areas:"img1 p1"
+                            "p2 img2"
+                            "img3 p3";
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1023px){
+    .item{
+        grid-template-rows: repeat(3, 460px);
+    }
+    .item1{
+        padding-top: 60px;
+    }
+    .item4{
+        padding-top: 60px;
+    }
+    .item5{
+        padding-top: 60px;
+    }
+}
+
+/* pagina nosotros */
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+header ul li{
+    list-style: none;
+    font-size: 20px;
+}
+header ul li a{
+    color: black;
+    text-decoration: none;
+}
+header ul li a:hover{
+    color: white;
+}
+.menu1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    grid-template-areas:"img1 p1"
+                        "p2 img2";
+}
+.img1{
+    background-image: url(../multimedia/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: img1;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+.img2{
+    background-image: url(../multimedia/img2.jpg);
+    background-position: center;
+    background-size: cover;
+    grid-area: img2;
+    border: 2px solid black;
+}
+.p1{
+    background-color: brown;
+    color: white;
+    grid-area: p1;
+    border: 2px solid black;
+    padding: 10px;
+    padding-top: 35px;
+    text-align: center;
+    border-bottom: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.p2{
+    background-color: brown;
+    color: white;
+    grid-area: p2;
+    border: 2px solid black;
+    padding: 10px;
+    padding-top: 35px;
+    text-align: center;
+    border-right: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+.fotnos{
+    background-color: coral;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding: 10px;
+}
+.fotnos div{
+    background-color: black;
+    padding: 20px;
+}
+.fotnos div a{
+    text-decoration: none;
+    color: white;
+}
+.fotnos div a:hover{
+    color: gray;
+}
+.fotnos ul{
+    padding-bottom: 10px;
+}
+@media only screen and (min-width:425px) and (max-width:767px){
+    .menu1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 450px);
+        grid-template-areas:"img1"
+                            "p1"
+                            "img2"
+                            "p2";
+    }
+    .img1{
+        border-right: 2px solid black;
+    }
+    .p2{
+        border-right: 2px solid black;
+        border-top: 0;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .menu1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 490px);
+    }
+    .p1{
+        padding-top: 20px;
+    }
+    .p2{
+        padding-top: 30px;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1023px){
+.menu1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 400px);
+}
+}
+
+/* pagina productos */ 
+
+.nave{
+    background-color: coral;
+    padding-bottom: 1px;
+    font-family: 'Roboto Mono', monospace;
+}
+.nave ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nave ul li{
+    list-style: none;
+    font-size: 20px;
+}
+.nave ul li a{
+    color: black;
+    text-decoration: none;
+}
+.nave ul li a:hover{
+    color: white;
+}
+.produ1{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.cuadro1{
+    background-color: blueviolet;
+    border: 2px solid black;
+    color: white;
+}
+.cuadro2{
+    background-color: brown;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    color: white;
+}
+.cuadro3{
+    background-color: brown;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    color: white;
+}
+.cuadro4{
+    background-color: brown;
+    border-right: 2px solid black;
+    color: white;
+}
+.cuadro5{
+    background-color: blueviolet;
+    border-right: 2px solid black;
+    color: white;
+}
+.cuadro6{
+    background-color: blueviolet;
+    border-right: 2px solid black;
+    color: white;
+}
+.cuadro7{
+    background-color: blueviolet;
+    border: 2px solid black;
+    color: white;
+}
+.cuadro8{
+    background-color: brown;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    color: white;
+}
+h2{
+    font-size: 30px;
+}
+footer .inicio{
+    background-color: black;
+}
+.inicio h3 a{
+    color: white;
+}
+@media only screen and (min-width:425px){
+    .cuadro1{
+        border-bottom: 0;
+    }
+    .cuadro2{
+        border-left: 2px solid black;
+    }
+    .cuadro3{
+        background-color: blueviolet;
+        border-bottom: 2px solid black;
+    }
+    .cuadro4{
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    .cuadro5{
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    .cuadro6{
+        background-color: brown;
+        border-left: 2px solid black;
+    }
+    .cuadro7{
+        border-bottom: 0;
+    }
+    .cuadro8{
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+    .cuadro2{
+        border-left: 2px solid black;
+        border-top: 2px solid black;
+    }
+    .cuadro3{
+        border-bottom: 2px solid black;
+        background-color: blueviolet;
+    }
+    .cuadro4{
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    .cuadro5{
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+    .cuadro6{
+        background-color: brown;
+        border-left: 2px solid black;
+    }
+    .cuadro7{
+        border-bottom: 0;
+    }
+    .cuadro8{
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .cuadro1{
+        border-bottom: 0
+    }
+    .cuadro2{
+        border-left: 2px solid black;
+    }
+    .cuadro3{
+        border-bottom: 2px solid black;
+        border-right: 0;
+        background-color: brown;
+    }
+    .cuadro4{
+        border-bottom: 2px solid black;
+        background-color: blueviolet;
+    }
+    .cuadro5{
+        border-left: 2px solid black;
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .cuadro6{
+        background-color: brown;
+    }
+    .cuadro7{
+        border-bottom: 0;
+    }
+    .cuadro8{
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1023px){
+    .cuadro1{
+        border-right: 0;
+        border-bottom: 2px solid black;
+    }
+    .cuadro3{
+        border-bottom: 0;
+    }
+    .cuadro4{
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .cuadro5{
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .cuadro7{
+        border-right: 0;
+        border-bottom: 2px solid black;
+    }
+}
+@media only screen and (min-width:1024px){
+    .cuadro1{
+        border-right: 0;
+        border-bottom: 2px solid black;
+    }
+    .cuadro3{
+        border-bottom: 0;
+    }
+    .cuadro4{
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .cuadro5{
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .cuadro7{
+        border-right: 0;
+        border-bottom: 2px solid black;
+    }
+}
+
+/* pagina de servicios */
+
+.headerServicios{
+    background-color: coral;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.area h2{
+    color: black;
+}
+.area1{
+    background-color: brown;
+    border: 5px solid black;
+}
+.area1 p{
+    color: white;
+}
+.area2{
+    background-color: brown;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom:  5px solid black;
+}
+.area2 p{
+    color: white;
+}
+.area3{
+    background-color: brown;
+    border-left: 5px solid black;
+    border-bottom:  5px solid black;
+    border-right:  5px solid black;
+}
+.area3 p{
+    color: white;
+}
+.area4{
+    background-color: brown;
+    border-right: 5px solid black;
+    border-bottom:  5px solid black;
+}
+.area4 p{
+    color: white;
+}
+.area5{
+    background-color: brown;
+    border-left: 5px solid black;
+    border-bottom:  5px solid black;
+    border-right:  5px solid black;
+}
+.area5 p{
+    color: white;
+}
+.area6{
+    background-color: brown;
+    border-right: 5px solid black;
+    border-bottom:  5px solid black;
+}
+.area6 p{
+    color: white;
+}
+.inicio{
+    background-color: coral;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.inicio a{
+    text-decoration: none;
+    color: black;
+}
+.inicio a:hover{
+    color: brown;
+}
+@media only screen and (min-width:425px) and (max-width:767px){
+    .area2{
+        border-top: 0px;
+        border-left: 5px solid black;
+    }
+    .area4{
+        border-left: 5px solid black;
+    }
+    .area6{
+        border-left: 5px solid black;
+    }
+}
+
+$redes: (
+    25px: red,
+    26px: orange,
+    27px: yellow,
+    28px: brown,
+);
+
+@each $size, $color in $redes {
+    .nosotros-#{$size} {
+        background-color: $color;
+        height: 80px;
+        width: 100%;
+        text-align: center;
+        font-size: $size;
+        padding-top: 20px;
+        border-bottom: 2px solid black;
+    }
+}
+
+.nosotrosMap{
+    display: flex;
+    align-items: center;
+}
